@@ -1,4 +1,4 @@
-# Villager Shops [![License: CC0](https://img.shields.io/badge/License-CC0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+# Villager Shops [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This mod is for Fabric Servers (or Single-Player) and requires [Fabric API](https://modrinth.com/mod/fabric-api) for event handling. Works perfectly with **Vanilla clients**!
 
@@ -6,8 +6,8 @@ This mod is for Fabric Servers (or Single-Player) and requires [Fabric API](http
 - **Transform Any Villager** - Turn any Unemployed or Nitwit villager into a professional shopkeeper.
 - **Linked Storage** - Shops are powered by physical containers (Chests, Barrels, etc.) placed beneath the villager.
 - **Internal Currency System** - Payments are stored safely "inside" the villager, preventing chest-stealing or overflow issues.
-- **Owner "Cash Out"** - Securely withdraw your earnings using a custom "Admin Key" (signed book).
-- **Client Optional** - No client-side installation required! Players can join and trade with zero mods installed.
+- **Owner "Cash Out"** - Securely withdraw your earnings if you use a signed book.
+- **Client Optional** - No client-side installation required! Players can join and trade with the vanilla client.
 
 ### How to use Villager Shops
 - **Create a Shop**:
@@ -27,8 +27,6 @@ This mod is for Fabric Servers (or Single-Player) and requires [Fabric API](http
 ### (Optional) Client-side Features
 - Installing the mod client-side is not required for server connectivity, but it allows you to use the mod in your Singleplayer worlds!
 
-### 📝 Development Note
-This project was developed with the assistance of **AI** and is provided **as-is**, without warranty of any kind. While it has been tested for stability on Minecraft 26.1, please ensure you make backups of your world before installing.
+### Development Note
+This project was developed with the assistance of **AI**. While it has been tested for stability on Minecraft 26.1 some bugs might have slick trough. Feel free to report them!
 
-### Shout-outs
-- **TinoMartino** for the "Shop Permit" icon and development direction.

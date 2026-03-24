@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "villager-shops",
+	"version": "${version}",
+	"name": "Villager shops",
+	"description": "Transform any nitwit into a customized, automated storefront linked directly to your storage!",
+	"authors": [
+		"TinoMartino"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/villager-shops/icon.png",
+	"environment": "*",
+	"custom": {
+		"fabric-api:client-optional": true
+	},
+	"entrypoints": {
+		"main": [
+			"com.tino.shops.VillagerShops"
+		]
+	},
+	"mixins": [
+		"villager-shops.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

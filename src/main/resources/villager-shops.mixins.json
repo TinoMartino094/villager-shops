@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "com.tino.shops.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"VillagerShopMixin",
+		"MerchantMenuMixin",
+		"VillagerDamageMixin",
+		"MerchantOfferMixin",
+		"VillagerPortalMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
